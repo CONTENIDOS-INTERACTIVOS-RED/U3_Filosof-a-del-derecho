@@ -1,229 +1,195 @@
 <template lang="pug">
   .curso-main-container.pb-3
-    BannerInterno(:subTitulo="'2. El concepto de filosofía del Derecho'")
+    BannerInterno(:subTitulo="'2. El estado'")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
-  
-      .row.mb-4
-        .col-2.d-none.d-xl-block
-          img(src='@/assets/curso/unidad/img-38.png', alt='Texto que describa la imagen')
-        .col-12.col-xl-8
-          span La filosofía del Derecho ha sido tradicionalmente considerada como una disciplina especulativa, alejada de la práctica jurídica cotidiana. Sin embargo, su relevancia en la comprensión y fundamentación del Derecho la convierte en un saber jurídico indispensable. A lo largo de la historia, la reflexión filosófica ha sido clave para definir qué es el Derecho, cuál es su función en la sociedad y qué principios deben regirlo.
 
-      .row.mb-4
-        .col-12.text-bold.bg-azul-1.text-center.p-4
-          p.mb-0 Desde esta aproximación al Derecho, se ha buscado responder preguntas fundamentales sobre la naturaleza del Derecho, su relación con la moral y su función en la organización social.
-        .col-12.bg-azul-2
-          .row
-            .col-12.col-xl-8.p-4.py-xl-0.d-flex
-              p.my-auto A diferencia de otras disciplinas jurídicas que se centran en normas específicas, la filosofía del Derecho ofrece una perspectiva crítica y reflexiva sobre el Derecho en su conjunto. Su estudio permite comprender los principios y valores que subyacen a las normas jurídicas, proporcionando un marco teórico para su interpretación y aplicación.
-            .col-4.d-none.d-xl-block
-              img(src='@/assets/curso/unidad/img-39.png', alt='Texto que describa la imagen')
-        .col-12.bg-azul-3
-          .row
-            .col-4.d-none.d-xl-block
-              img(src='@/assets/curso/unidad/img-40.png', alt='Texto que describa la imagen')
-            .col-12.col-xl-8.p-4.py-xl-0.d-flex
-              p.my-auto El desarrollo de la filosofía del Derecho ha sido influenciado por diversas corrientes filosóficas. Desde el iusnaturalismo, que sostiene que el Derecho debe estar alineado con principios morales universales, hasta el positivismo jurídico, que considera que el Derecho es un sistema normativo independiente de consideraciones éticas.
-        .col-12.text-bold.bg-azul-4.text-center.p-4
-          p.mb-0 La discusión entre estos enfoques ha generado diferentes visiones sobre la función del Derecho y su relación con la justicia.
+      .row.mb-4.bg-azul-claro.p-4.py-xl-0
+        .col-12.col-xl-9.d-flex
+          p.my-auto El Estado es una de las instituciones fundamentales en la organización de la sociedad. Se trata de una estructura política y jurídica que tiene como finalidad la regulación de la convivencia, la administración de la justicia y la garantía de los derechos y deberes de los ciudadanos. A lo largo de la historia, el concepto de Estado ha evolucionado, adquiriendo diferentes formas y estructuras, según los contextos históricos, políticos y filosóficos en los que se ha desarrollado. Su estudio es esencial para comprender el funcionamiento de las sociedades contemporáneas, porque de su existencia dependen el orden, la estabilidad y la implementación de las normas que rigen la vida en comunidad.
+        .col-3.d-none.d-xl-block
+          img.h-100(src='@/assets/curso/unidad/img-29.png', alt='Texto que describa la imagen')
 
-      p.mb-4 Además, la filosofía del Derecho también se ocupa del estudio de conceptos fundamentales como la obligación jurídica, la validez normativa y la aplicabilidad del Derecho. La cuestión central en este análisis es determinar si las normas son justas por su propia naturaleza o si dependen de su creación dentro de un sistema formal. Estas cuestiones han sido motivo de debate filosófico desde la Antigüedad hasta nuestros días.
-      .row.mb-4.mx-0
-        .col-12.col-xl-8.d-flex.align-items-center.bg-rojo.p-4(data-aos="fade-right")
-          p.mb-0(data-aos="fade-up") La filosofía del Derecho es una rama del conocimiento que, desde una perspectiva filosófica, se dedica al estudio del Derecho en su totalidad. A diferencia de otras disciplinas jurídicas, su objeto no es exclusivamente normativo, sino que se orienta hacia la comprensión de los fundamentos, la naturaleza y los fines del Derecho. En este sentido, se configura como una disciplina jurídica, pues su análisis se inserta dentro del sistema del Derecho y sus instituciones. 
-        .d-none.d-xl-block.col-4.px-0(data-aos="fade-left")
-          img.h-100(src='@/assets/curso/unidad/img-41.png', alt='Texto que describa la imagen')
-            
       #t_2_1.titulo-segundo(data-aos="flip-up")
         div.d-flex
           span.me-3 2.1
-          h2 La filosofía del Derecho y las demás ramas jurídicas
+          h2 El Estado en la filosofía
+      
+      p.mb-4 En la Antigua Grecia, Platón y Aristóteles establecieron las primeras teorías sistemáticas sobre el Estado.
 
       .row.mb-4
         .col-4.d-none.d-xl-block
-          img(src='@/assets/curso/unidad/img-42.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/unidad/img-30.png', alt='Texto que describa la imagen')
         .col-12.col-xl-8
-          p.mb-4 A diferencia de disciplinas dogmáticas como el Derecho civil, penal o administrativo, la filosofía del Derecho no se limita a la descripción y aplicación de normas específicas, sino que busca comprender el Derecho en su totalidad. Sin embargo, esto no la aleja del campo jurídico, sino que la convierte en una disciplina transversal que proporciona herramientas teóricas para la construcción y justificación de las normas jurídicas.
-          .bg-verde-claro.p-4(data-aos='fade-up')
-            span Dentro de las ciencias jurídicas, la filosofía del Derecho desempeña un papel fundamental al proporcionar el marco conceptual necesario para evaluar la validez y la justicia de las normas. 
-          .bg-verde.p-4(data-aos='fade-up')
-            span Por ejemplo, cuestiones como la interpretación de los derechos fundamentales, la distinción entre Derecho y moral, o la relación entre el Derecho y el poder político son abordadas desde una perspectiva filosófica, pero con un impacto directo en la práctica jurídica.
-      #t_2_2.titulo-segundo(data-aos="flip-up")
-        div.d-flex
-          span.me-3 2.2
-          h2 Metodología y enfoques en la filosofía del Derecho
-
-      p.mb-4 El carácter jurídico de la filosofía del Derecho también se manifiesta en su metodología. Aunque para algunos adopta un enfoque especulativo y crítico, sus preguntas y respuestas están orientadas a problemas jurídicos concretos. La metodología utilizada en la filosofía del Derecho varía, según la escuela de pensamiento, pero en general se pueden identificar tres enfoques principales:
-      ImagenInfografica.color-secundario.mb-4.bg-white
-        template(v-slot:imagen)
-          figure
-            img(src='@/assets/curso/unidad/img-44.png', alt='Descripción de la imagen')
-        .tarjeta.bg-white.p-4(x='57%' y='18%' numero='+')
-          .h5.mb-2 Enfoque Iusnaturalista 
-          p Considera que el Derecho está basado en principios universales de justicia que existen con independencia de la voluntad humana. Desde esta perspectiva, la filosofía del Derecho analiza cómo las normas jurídicas reflejan (o deben reflejar) principios morales objetivos.
-        .tarjeta.bg-white.p-4(x='60.1%' y='49%' numero='+')
-          .h5.mb-2 Enfoque positivista
-          p Sostiene que el Derecho es un sistema de normas creado por la autoridad competente, sin necesidad de una justificación moral externa. La filosofía del Derecho, en este caso, se centra en estudiar la estructura y la coherencia interna del Derecho, así como su relación con la sociedad. Además, desde este enfoque se busca relacionar a la tradición jurídica con el método científico en aras de sustentar su rigurosidad.
-        .tarjeta.bg-white.p-4(x='57%' y='78%' numero='+')
-          .h5.mb-2 Enfoque crítico
-          p Examina el Derecho desde una postura sociológica o política, cuestionando las relaciones de poder que subyacen en él. Se interesa en la forma en que el Derecho contribuye a la reproducción o transformación de estructuras sociales.
-
-      .d-flex.align-items-start.bg-verde-oscuro.bg-full-width.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
-        img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-45.svg', alt='Texto descriptivo de la imagen')
-        .my-auto
-          p.pe-xl-3.mb-0.text-white Independientemente del enfoque adoptado, la filosofía del Derecho siempre mantiene su vínculo con el Derecho positivo y las instituciones jurídicas, lo que la confirma como una disciplina jurídica.
+          .bg-marron.p-4(data-aos='fade-up')
+            span En “La República” Platón (2004), concibe el Estado como un organismo estructurado en tres clases sociales, cada una reflejando una parte del alma humana: los filósofos gobernantes, guiados por la razón y la sabiduría, los guardianes o guerreros, encargados de la protección con valentía y honor, y los productores, responsables de las necesidades materiales y dominados por el deseo.
+          .bg-marron-oscuro.p-4(data-aos='fade-up')
+            span La justicia surge cuando cada grupo cumple su función sin interferir en la de los demás, manteniendo así la armonía social. Para Platón, el gobierno ideal es una aristocracia dirigida por filósofos, debido a que solo ellos poseen el conocimiento del bien y la capacidad para gobernar sin dejarse llevar por intereses personales.
 
       .row.mb-4
-        .col-10.mx-auto
-          .row.bg-marron-oscuro.p-4.py-xl-0(data-aos="fade-up").mb-4
-            .col-4.d-none.d-xl-block
-              img(src='@/assets/curso/unidad/img-46.png', alt='Texto que describa la imagen')
-            .col-12.col-xl-8.d-flex
-              p.my-auto <b>Para tener en cuenta.</b> el Derecho positivo y el enfoque positivista, son cuestiones distintas. Mientras que el Derecho positivo alude al conjunto de normas vigentes en un sistema jurídico determinado, el positivismo jurídico es una corriente filosófica que analiza el Derecho desde una perspectiva autónoma, separada de la moral o de cualquier otro criterio extrajurídico.  
-          span De manera más concreta:
+        .col-12.col-xl-8
+          .bg-verde-claro.p-4(data-aos='fade-up')
+            span Por su parte, Aristóteles define el Estado como una comunidad natural que surge para satisfacer las necesidades humanas y alcanzar el bien común. Considera que el ser humano es un animal político, pues solo en sociedad puede desarrollar plenamente su s capacidades.
+          .bg-verde-oscuro.p-4(data-aos='fade-up')
+            span.text-white El Estado es la evolución de comunidades más pequeñas como la familia y la aldea, pero es la única que garantiza una vida autosuficiente y orientada a la virtud. Para Aristóteles, el fin último del Estado, no es solo la supervivencia, sino la promoción de una vida buena y justa para sus ciudadanos.
+        .col-4.d-none.d-xl-block
+          img(src='@/assets/curso/unidad/img-33.png', alt='Texto que describa la imagen')
+
+      p.mb-4 En la filosofía moderna, el pensamiento contractualista de Thomas Hobbes, John Locke y Jean-Jacques Rousseau, tuvo un impacto significativo en la concepción del Estado.
+      p.mb-4 Para <b>Hobbes (2017)</b>, el Estado es una institución creada por los seres humanos para garantizar la paz y el orden social, evitando el caos del estado de naturaleza. Sostiene que, en ausencia de un poder soberano, los individuos vivirían en un estado de guerra constante, donde la vida sería "solitaria, pobre, desagradable, brutal y corta".
+
+      .row.mb-4
+        .col-12.col-lg-5.col-xl-4.d-none.d-lg-block(data-aos="zoom-in")
+          img(src='@/assets/curso/unidad/img-34.png', alt='Texto que describa la imagen')
+        .col-12.col-lg-7.col-xl-8
+          AcordionA(tipo="b")
+            .div(titulo="Primer tema")
+              p Hobbes describe el estado de naturaleza como una condición en la que los seres humanos, movidos por su deseo de supervivencia y poder, viven en una lucha de "todos contra todos". Para salir de esta situación caótica, los individuos acuerdan ceder parte de su libertad a un soberano mediante un contrato social, a cambio de seguridad y orden.
+            .div(titulo="Segundo tema")
+              p El Estado, según Hobbes, debe tener un poder absoluto para garantizar la estabilidad. Este poder puede estar en manos de un monarca o de una asamblea, pero debe ser indivisible y soberano, es decir, no debe estar limitado por otras instituciones. Solo así puede imponer leyes y evitar el regreso al estado de naturaleza.
+            .div(titulo="Tercer tema")
+              p Para Hobbes, la responsabilidad del Estado es garantizar la paz y la protección de los ciudadanos, mientras que la responsabilidad de los individuos es obedecer al soberano. La desobediencia solo se justifica si el Estado deja de cumplir su función principal: garantizar la vida de sus súbditos.
+
+      .d-flex.align-items-start.bg-verde-oscuro.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
+        img.me-3(style='width: 110px' src='@/assets/curso/unidad/img-35.png', alt='Texto descriptivo de la imagen')
+        .my-auto
+          p.pe-xl-3.mb-0.text-white Para <b>Locke (2006)</b>, por su parte, el Estado es una institución creada para garantizar los derechos naturales de los individuos, especialmente la vida, la libertad y la propiedad. A diferencia de Hobbes, quien concebía el Estado como un poder absoluto necesario para evitar el caos, Locke lo ve como un ente con poder limitado y sujeto al consentimiento de los ciudadanos. El 
+
       .row.position-relative.mb-5.py-4.bg-fondo-slider.bg-full-width
         div.px-4.px-md-5.py-md-3
           SlyderA(tipo="b").bg-white
             .row.p-4.px-md-5.py-lg-5.justify-content-between
               .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
                 p.text-bold Primer tema
-                p El Derecho positivo es el conjunto de normas jurídicas que rigen en un tiempo y lugar específicos, establecidas por una autoridad competente. Se trata del Derecho puesto por el legislador, lo que significa que su validez no depende de su contenido moral, sino de su origen formal.
+                p Describe el estado de naturaleza como una condición en la que los seres humanos viven en relativa paz y libertad, guiados por la ley natural. Sin embargo, la ausencia de un poder común para resolver disputas genera inseguridad y conflictos. Para proteger sus derechos, las personas acuerdan formar un gobierno mediante un contrato social, delegando ciertos poderes al Estado, pero sin renunciar a su soberanía individual.
               .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
                 figure
-                  img(src='@/assets/curso/unidad/img-47.png', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/unidad/img-36.png', alt='Texto que describa la imagen')
             .row.p-4.px-md-5.py-lg-5.justify-content-between
               .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
                 p.text-bold Segundo tema
-                p Por ejemplo, las constituciones, las leyes, los reglamentos y los tratados internacionales, ratificados por un Estado, forman parte del Derecho positivo de un país que, a su vez, se diferencia del Derecho natural, que se basa en principios de justicia universalmente válidos, independientemente de su reconocimiento por parte de un legislador. En otras palabras, mientras que el Derecho natural se fundamenta en la razón y la moral, el Derecho positivo se fundamenta en la autoridad y la promulgación oficial de normas.
+                p El principal propósito del Estado es proteger los derechos naturales de los ciudadanos. Locke sostiene que el poder del Estado debe ser limitado y dividido en distintas ramas para evitar abusos. Así, propone un gobierno basado en la separación de poderes, en el que la autoridad legislativa es suprema porque dicta las leyes que garantizan la libertad y la propiedad.
               .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
                 figure
-                  img(src='@/assets/curso/unidad/img-48.png', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/unidad/img-37.png', alt='Texto que describa la imagen')
             .row.p-4.px-md-5.py-lg-5.justify-content-between
               .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
                 p.text-bold Tercer tema
-                p Así, alguien puede aceptar la existencia del Derecho positivo sin necesariamente adoptar un enfoque positivista del Derecho. Asimismo, un positivista jurídico puede analizar el Derecho positivo sin considerarlo justo o deseable, puesto que su objetivo es describir científicamente, no juzgarlo desde una perspectiva moral.
+                p Locke introduce la idea de que, si el Estado no cumple con su función de proteger los derechos naturales o actúa de manera despótica, los ciudadanos tienen el Derecho a la rebelión y pueden cambiar o derrocar al gobierno. Esto establece la base filosófica para la democracia liberal y el constitucionalismo moderno.
               .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
                 figure
-                  img(src='@/assets/curso/unidad/img-49.png', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/unidad/img-38.png', alt='Texto que describa la imagen')
+
+      p.mb-4 Para <b>Rousseau</b>, el Estado es una institución creada por los ciudadanos mediante un contrato social, con el propósito de garantizar la libertad y la igualdad dentro de la comunidad. En su obra “El contrato social” Rousseau (2017), plantea una visión del Estado distinta a la de Hobbes y Locke, dado que no lo ve solo como un mecanismo de protección, sino como una expresión de la voluntad general del pueblo.
+
+      .row.mb-4
+        .col-12.col-lg-5.col-xl-4.d-none.d-lg-block(data-aos="zoom-in")
+          img(src='@/assets/curso/unidad/img-39.png', alt='Texto que describa la imagen')
+        .col-12.col-lg-7.col-xl-8
+          AcordionA(tipo="b")
+            .div(titulo="Primer tema")
+              p Rousseau describe el estado de naturaleza como una etapa en la que los seres humanos vivían libres e iguales, sin corrupción ni desigualdades sociales. Sin embargo, con el surgimiento de la propiedad privada y la sociedad organizada, aparecieron la desigualdad, la competencia y la opresión. Para recuperar la libertad perdida, los individuos acuerdan formar un contrato social, pero no para someterse a un soberano, sino para constituir una comunidad política basada en la voluntad general.
+            .div(titulo="Segundo tema")
+              p Para Rousseau, el verdadero soberano no es un rey ni una élite gobernante, sino el pueblo en su conjunto, que actúa a través de la voluntad general. Esta voluntad general representa el bien común y debe prevalecer sobre los intereses particulares. Así, el Estado no solo protege la seguridad, sino que también busca la justicia y la igualdad.
+            .div(titulo="Tercer tema")
+              p Sostiene que los ciudadanos no pierden su libertad al formar un Estado, sino que la ejercen de manera colectiva. La soberanía no se delega completamente en un gobernante, sino que se mantiene en el pueblo, quien debe participar activamente en la toma de decisiones.
+            .div(titulo="Cuarto tema")
+              p Rechaza la desigualdad extrema y propone un Estado que garantice la justicia social, regulando la propiedad y evitando que unos pocos acumulen poder a costa de los demás. Aunque acepta la necesidad de leyes y autoridades, cree que estas deben reflejar la voluntad general y no los intereses de una minoría.
+
+
+      #t_2_2.titulo-segundo(data-aos="flip-up")
+        div.d-flex
+          span.me-3 2.2
+          h2 El Estado en el Derecho
+
+      p.mb-4 Desde la perspectiva jurídica, el Estado es la entidad que establece y aplica el derecho dentro de una comunidad política. Se define a partir de tres elementos esenciales: territorio, población y poder soberano. La existencia del Estado implica la creación y aplicación de un sistema normativo que regule las relaciones entre los ciudadanos y las instituciones.
+
+      p.mb-4 En términos jurídicos, el Estado se organiza en distintos modelos de gobierno y sistemas legales. Entre los más comunes se encuentran:
+
+      TabsC.mb-4
+        .tabs-content.border.px-4.p-md-5.py-3(titulo='Estados unitarios y federales', :icon="require('@/assets/curso/unidad/img-40.svg')")
+          .row
+            .d-none.d-lg-block.col-md-12.col-lg-5(data-aos='zoom-in')
+              figure
+                img(src='@/assets/curso/unidad/img-41.png', alt='Descripción de la imagen')
+            .col-md-12.col-lg-7.mb-4.mb-md-0
+              h4(data-aos='fade-up') Estados unitarios y federales
+              p(data-aos='fade-up') En un Estado unitario, como Francia, el poder se centraliza en el gobierno nacional, mientras que en un Estado federal, como Estados Unidos o Alemania, existen distintos niveles de gobierno con autonomía relativa.
+        .tabs-content.border.px-4.p-md-5.py-3(titulo='Estados de Derecho', :icon="require('@/assets/curso/unidad/img-40.svg')")
+          .row 
+            .d-none.d-lg-block.col-md-12.col-lg-5(data-aos='zoom-in')
+              figure
+                img(src='@/assets/curso/unidad/img-42.png', alt='Descripción de la imagen')
+            .col-md-12.col-lg-7.mb-4.mb-md-0
+              h4(data-aos='fade-up') Estados de Derecho 
+              p(data-aos='fade-up') Se caracterizan por la primacía de la Ley sobre el poder político. En estos sistemas, las instituciones estatales están sujetas al Derecho y deben respetar los principios constitucionales.
+        .tabs-content.border.px-4.p-md-5.py-3(titulo='Estados democráticos, autocráticos y totalitarios', :icon="require('@/assets/curso/unidad/img-40.svg')")
+          .row
+            .d-none.d-lg-block.col-md-12.col-lg-5(data-aos='zoom-in')
+              figure
+                img(src='@/assets/curso/unidad/img-43.png', alt='Descripción de la imagen')
+            .col-md-12.col-lg-7.mb-4.mb-md-0
+              h4(data-aos='fade-up') Estados democráticos, autocráticos y totalitarios
+              p(data-aos='fade-up') Los Estados democráticos se basan en la participación ciudadana y el respeto por los derechos fundamentales. En contraste, los regímenes autocráticos y totalitarios concentran el poder en una sola figura o grupo, limitando la participación y las libertades individuales.
+
+      .row.bg-fondo-1.bg-full-width.py-4.mb-4
+        div.px-5.pb-md-3
+
+          .row.mb-4
+            .col-3.d-none.d-xl-block
+              img(src='@/assets/curso/unidad/img-44.png', alt='Texto que describa la imagen')
+            .col-12.col-xl-9
+              p.mb-4 El Derecho constitucional es la rama jurídica que estudia la estructura y funcionamiento del Estado. Define sus poderes (ejecutivo, legislativo y judicial), la organización de los territorios y los derechos y deberes de los ciudadanos. En este contexto, la soberanía es un principio clave, dado que implica la capacidad del Estado para ejercer su autoridad sin injerencias externas.
+              .bg-marron.p-4(data-aos='fade-up')
+                span Uno de los aspectos más relevantes del Derecho estatal es la relación entre el Estado y el individuo. A través de normas y regulaciones, el Estado establece derechos fundamentales como la igualdad, la libertad y la propiedad, pero también impone obligaciones como el pago de impuestos y el respeto a las leyes. Esta relación es objeto de constantes debates jurídicos, especialmente en temas como el alcance de la intervención estatal en la economía, la protección de la privacidad y la seguridad ciudadana. 
+
       #t_2_3.titulo-segundo(data-aos="flip-up")
         div.d-flex
           span.me-3 2.3
-          h2 La relación entre filosofía y Derecho
+          h2 El caso colombiano
 
-      p.mb-4 El Derecho no puede ser entendido sin referencia a conceptos filosóficos claves como la justicia, la equidad y la legitimidad. Desde la Antigüedad, pensadores como Platón y Aristóteles exploraron la relación entre la Ley y la moral, estableciendo los cimientos de la filosofía del Derecho; esto explica el que Atenas, dice Castro (2019), como cuna de la democracia, nos haya dejado los cimientos que hoy usamos y que dan lugar a las preguntas por la vida en comunidad, el poder entre otros, que el Derecho busca aplicar.
+      p.mb-4 La organización del Estado colombiano está definida en la Constitución Política de 1991, que lo establece como un Estado social de Derecho, democrático, participativo y pluralista. Se estructura en tres ramas del poder público, organismos de control y otros entes autónomos, con un modelo de descentralización territorial:
 
-      .row.mb-4
-        .col-10.col-md-6.col-xl-4.mx-auto.d-flex.bg-rojo.p-4(data-aos="fade-right")
-          p.mb-0 Para estos filósofos la concepción de justicia es central, vista desde el punto de la virtud o la equidad. Estas visiones de justicia, si bien no indican cómo opera una norma, si permiten comprenderla y entender si su aplicación vela por los intereses de los ciudadanos. 
-        .col-4.d-none.d-xl-block(data-aos="fade-left")
-          img.h-100(src='@/assets/curso/unidad/img-50.png', alt='Texto que describa la imagen')
-        .col-10.col-md-6.col-xl-4.mx-auto.d-flex.bg-azul-claro.p-4(data-aos="fade-left")
-          p.mb-0 Más adelante, en la modernidad, autores como Kant y Hegel profundizaron en la naturaleza normativa del Derecho y su relación con la autonomía del individuo. En los postulados kantianos se emanan, dice Castro (2019), derechos con valor universal, bajo el argumento de que los principios morales encarnan una aspiración universal; o en términos de Kant, los imperativos.
-      h2 ¿Qué es un imperativo?
-      p.mb-4 Kant distingue entre dos tipos de imperativos:
       .row.mb-4
         .col-12.col-lg-7.col-xl-8
           AcordionA(tipo="b")
-            .div(titulo="Imperativo hipotético")
-              p El <b>imperativo hipotético</b> expresa una acción que es buena como medio para alcanzar un fin. Es decir, su obligatoriedad depende de un objetivo específico. Se formula en términos condicionales:<br><br>Ejemplo. "Si quieres aprobar el examen, debes estudiar".<br>Aquí, la obligación de estudiar solo tiene sentido en función del objetivo de aprobar el examen. Si el objetivo desaparece, la acción deja de ser obligatoria.<br>Los imperativos hipotéticos pueden ser:<br><br>●	<b>Técnicos.</b> Relacionados con habilidades o medios para lograr un fin ("si quieres ser un buen pianista, debes practicar").<br>●	<b>Pragmáticos.</b> Enfocados en el bienestar o la felicidad.
+            .div(titulo="Rama Ejecutiva")
+              p Encargada de la administración del Estado y la ejecución de las leyes. Está conformada por:<br><br>●	<b>Presidente de la República</b>. Jefe de Estado, Jefe de Gobierno y Suprema Autoridad Administrativa. Su período es de cuatro años sin posibilidad de reelección.<br>●	<b>Vicepresidente</b>. Reemplaza al presidente en caso de ausencia y cumple funciones asignadas.<br>●	<b>Ministros y directores de departamentos administrativos</b>. Encargados de dirigir las políticas de cada sector.<br>●	<b>Gobernadores y alcaldes</b>. Representan al Ejecutivo en los niveles departamental y municipal.
 
-            .div(titulo="Imperativo categórico")
-              p El <b>imperativo categórico</b>, en cambio, ordena una acción como obligatoria en sí misma, sin depender de ningún fin o deseo personal. Es un mandato moral absoluto y universal.<br><br>Ejemplo, "No debes mentir".<br>Esta norma no depende de las consecuencias ni de lo que alguien desee lograr; es válida en cualquier circunstancia porque responde a la razón moral.<br>Kant formuló varias versiones del imperativo categórico, siendo las más importantes:<br><br>●	<b>Fórmula de la Ley universal.</b> Universalizar la máxima. Esto significa que antes de actuar, se debe plantear la pregunta: ¿qué pasaría si todos hicieran lo mismo?<br>●	<b>Fórmula de la humanidad.</b> Tratar a los demás como fines y no como medios.<br>●	<b>Fórmula de la autonomía.</b> Obrar como si se fuera un legislador de fines.
+            .div(titulo="Rama Legislativa")
+              p Responsable de crear, modificar y derogar leyes. Se compone del <b>Congreso de la República</b>, que tiene dos cámaras:<br><br>●	<b>Senado de la República</b>. Representa el ámbito nacional, con 108 senadores elegidos por voto popular.<br><br>●	<b>Cámara de Representantes</b>. Representa a los departamentos y distritos, con 188 representantes.
+
+            .div(titulo="Rama Judicial")
+              p Administra justicia de manera autónoma e independiente. Está conformada por varias jurisdicciones y altas cortes:<br><br>●	<b>Corte Constitucional</b>. Vigila la supremacía de la Constitución.<br>●	Corte Suprema de Justicia. Máximo tribunal de la jurisdicción ordinaria.<br>●	Consejo de Estado. Máximo tribunal de lo contencioso-administrativo.<br>●	Consejo Superior de la Judicatura. Administra la justicia y la carrera judicial.<br>●	Fiscalía General de la Nación. Investiga y acusa en procesos penales.
 
         .col-12.col-lg-5.col-xl-4.d-none.d-lg-block(data-aos="zoom-in")
-          img(src='@/assets/curso/unidad/img-51.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/unidad/img-45.png', alt='Texto que describa la imagen')
 
-      p.mb-4 El imperativo categórico de Kant tiene una aplicación importante en el Derecho, porque proporciona un fundamento racional y universal para la legislación y la justicia. Kant concibe el Derecho como un sistema de normas que garantizan la libertad de todos en una sociedad, y su vínculo con el imperativo categórico, se refleja en varios aspectos:
-      p.mb-4 Hablemos ahora sobre la universalidad de la Ley:
-
-      .row.position-relative.mb-5.py-4.bg-fondo-slider.bg-full-width
-        div.px-4.px-md-5.py-md-3
-          SlyderA(tipo="b").bg-white
-            .row.p-4.px-md-5.py-lg-5.justify-content-between
-              .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
-                figure
-                  img(src='@/assets/curso/unidad/img-52.png', alt='Texto que describa la imagen')
-              .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
-                p.text-bold La primera formulación
-                p Según la primera formulación del imperativo categórico, una norma jurídica solo es válida si puede aplicarse de manera universal sin contradicciones.<br><br><b>Ejemplo.</b> Una Ley que permitiera el robo sería contradictoria, porque si todos robaran, el concepto mismo de propiedad desaparecería, lo que haría imposible la existencia del robo. Por lo tanto, el Derecho debe prohibir el robo.<br>En el ámbito jurídico, este principio exige que las leyes sean coherentes y aplicables a todos por igual, sin excepciones arbitrarias.<br>Tratar a las personas como fines, no como medios.
-
-            .row.p-4.px-md-5.py-lg-5.justify-content-between
-              .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
-                figure
-                  img(src='@/assets/curso/unidad/img-53.png', alt='Texto que describa la imagen')
-              .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
-                p.text-bold La segunda formulación
-                p La segunda formulación del imperativo categórico, implica que las leyes deben respetar la dignidad y autonomía de las personas.<br><br><b>Ejemplo.</b> La esclavitud es inmoral y jurídicamente inaceptable porque trata a los seres humanos como meros instrumentos para el beneficio de otros.<br>Esto influye en el desarrollo de los derechos humanos y en principios fundamentales como la prohibición de la tortura y el respeto a la autonomía individual en el Derecho civil y penal.<br>Autonomía y racionalidad en la legislación.
-
-            .row.p-4.px-md-5.py-lg-5.justify-content-between
-              .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
-                figure
-                  img(src='@/assets/curso/unidad/img-54.png', alt='Texto que describa la imagen')
-              .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
-                p.text-bold La tercera formulación
-                p La tercera formulación del imperativo categórico implica que el Derecho debe ser creado y aplicado por individuos que actúan como legisladores racionales, es decir, que establecen normas con base en la razón y no en intereses particulares o emociones.
-
-      .row.mb-4
-        .col-12.col-xl-9
-          p.mb-4 Por su parte Hegel, en su filosofía del Derecho considera que el Derecho es una manifestación del “Espíritu Objetivo”, es decir, una expresión de la razón en la realidad social e histórica. Para Hegel, la naturaleza normativa del Derecho no se basa solo en normas impuestas, sino en la realización de la libertad dentro de un sistema racional de instituciones.
-          .bg-verde-claro.p-4(data-aos='fade-up')
-            span A diferencia de Kant, que fundamenta el Derecho en principios universales derivados del imperativo categórico, Hegel sostiene que el Derecho es la forma en que la libertad se desarrolla históricamente en instituciones concretas. Según él, la libertad no es solo una cualidad individual, sino que se realiza plenamente en la comunidad y en el Estado. 
-        .col-3.d-none.d-xl-block
-          img(src='@/assets/curso/unidad/img-55.png', alt='Texto que describa la imagen')
       #t_2_4.titulo-segundo(data-aos="flip-up")
         div.d-flex
           span.me-3 2.4
-          h2 La estructura normativa del Derecho
+          h2 Interrelación entre filosofía y Derecho, en la concepción del Estado
 
-      p.mb-4 Hegel divide el desarrollo del Derecho en tres niveles normativos: 
+      p.mb-4 Aunque la filosofía y el Derecho abordan el concepto de Estado desde perspectivas diferentes, ambos enfoques se complementan. La filosofía proporciona las bases teóricas sobre la legitimidad, la justicia y la función del Estado, mientras que el Derecho traduce estos principios en normas concretas que regulan su estructura y funcionamiento.
 
-      TabsC.mb-4
-        .tabs-content.border.px-4.p-md-5.py-3(titulo='Derecho abstracto', :icon="require('@/assets/curso/unidad/img-56.svg')")
-          .row
-            .d-none.d-lg-block.col-md-12.col-lg-5(data-aos='zoom-in')
-              figure
-                img(src='@/assets/curso/unidad/img-57.png', alt='Descripción de la imagen')
-            .col-md-12.col-lg-7.mb-4.mb-md-0
-              h4(data-aos='fade-up') Derecho abstracto
-              p(data-aos='fade-up')  Es la primera forma de normatividad jurídica, donde el individuo es reconocido como titular de derechos. Aquí predominan normas sobre la propiedad, el contrato y la reparación del daño.
-        .tabs-content.border.px-4.p-md-5.py-3(titulo='Moralidad', :icon="require('@/assets/curso/unidad/img-56.svg')")
-          .row
-            .d-none.d-lg-block.col-md-12.col-lg-5(data-aos='zoom-in')
-              figure
-                img(src='@/assets/curso/unidad/img-58.png', alt='Descripción de la imagen')
-            .col-md-12.col-lg-7.mb-4.mb-md-0
-              h4(data-aos='fade-up') Moralidad
-              p(data-aos='fade-up')  Sostiene que el Derecho se complementa con la intención y la responsabilidad moral del sujeto. Ya no basta con seguir normas externas, sino que se requiere de la interiorización de principios éticos.
-        .tabs-content.border.px-4.p-md-5.py-3(titulo='Eticidad', :icon="require('@/assets/curso/unidad/img-56.svg')")
-          .row
-            .d-none.d-lg-block.col-md-12.col-lg-5(data-aos='zoom-in')
-              figure
-                img(src='@/assets/curso/unidad/img-59.png', alt='Descripción de la imagen')
-            .col-md-12.col-lg-7.mb-4.mb-md-0
-              h4(data-aos='fade-up') Eticidad
-              p(data-aos='fade-up') Es el nivel más alto del Derecho, en el cual la normatividad jurídica se materializa en las instituciones como la familia, la sociedad civil y el Estado. Para Hegel, el Estado es la máxima realización del Derecho, debido a que armoniza los intereses individuales y colectivos en una estructura racional.
-
-      h2 Diferencia con el positivismo jurídico y el Derecho natural
-
-      p.mb-4 Hegel rechaza tanto el positivismo jurídico (porque el Derecho no es solo normas impuestas por la autoridad) como el Derecho natural kantiano (porque el Derecho no se basa solo en principios abstractos, sino en su desarrollo histórico y social). Para Hegel, el Derecho es dinámico y debe entenderse dentro del contexto histórico y social en el que se desarrolla.
       .row.mb-4
-        .col-12.col-xl-8
-          .mb-4.d-flex.align-items-start.bg-rojo.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
-            img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-60.svg', alt='Texto descriptivo de la imagen')
-            .my-auto
-              p.pe-xl-3.mb-0 De manera posterior a las visiones de Hegel y Kant, Hans Kelsen en el siglo XX, propone una visión positivista. En esta separa la idea de un Derecho natural, así como la influencia de la moral y la política defendiendo un enfoque positivista en el que la validez de una norma se fundamenta en su conformidad con un sistema jurídico preestablecido.
-          span En contraste, el iusnaturalismo sostiene que el Derecho debe estar vinculado a principios universales de justicia. Estas posturas reflejan la diversidad de interpretaciones sobre la relación entre filosofía y Derecho, lo que demuestra que la normatividad jurídica no es un simple conjunto de reglas impuestas, sino un sistema que responde a principios racionales y éticos, que requieren una constante evaluación y justificación.
         .col-4.d-none.d-xl-block
-          img(src='@/assets/curso/unidad/img-61.png', alt='Texto que describa la imagen')
-      
+          img(src='@/assets/curso/unidad/img-46.png', alt='Texto que describa la imagen')
+        .col-12.col-xl-8
+          .d-flex.align-items-start.bg-azul-claro.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
+            img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-47.svg', alt='Texto descriptivo de la imagen')
+            .my-auto
+              p.pe-xl-3.mb-0 La <b>teoría del contrato social</b>, desarrollada por Hobbes, Locke y Rousseau, influyó en la redacción de constituciones modernas y en la consolidación de los Estados democráticos. De igual forma, el principio de separación de poderes, formulado por Montesquieu, es un pilar fundamental en muchos sistemas jurídicos actuales.
+
+          span Asimismo, las teorías marxistas sobre el Estado, han influido en la regulación de la propiedad y en la creación de modelos de bienestar social en distintos países. En la actualidad, el debate entre la intervención del Estado y la libertad individual sigue siendo una cuestión clave en la filosofía política y en el Derecho constitucional.
+
       .row.mb-5
-        .col-4.d-none.d-xl-block
-          img(src='@/assets/curso/unidad/img-62.png', alt='Texto que describa la imagen')
         .col-12.col-xl-8
-          .d-flex.align-items-start.bg-marron.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
-            img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-63.svg', alt='Texto descriptivo de la imagen')
-            .my-auto
-              p.pe-xl-3.mb-0 La filosofía del Derecho es fundamental para la comprensión del ordenamiento jurídico. Existen muchos debates sobre los conceptos que sustentan la aplicación y creación de normas basadas en visiones morales, éticas, históricas y valores como la justicia, la equidad entre otros. No existe una sola filosofía del Derecho y poner en diálogo las diferentes visiones permite fortalecer el conocimiento jurídico, y orientar a quienes ejercen el derecho en sus decisiones, haciendo que estas tengan las bases y la argumentación necesaria para la consolidación de sociedades justas, equitativas y que en términos modernos garanticen la construcción y el desarrollo del Estado. 
+          .bg-verde-claro.p-4(data-aos='fade-up')
+            span El Estado es una institución fundamental para la organización de la sociedad, pues garantiza la estabilidad, el orden y la protección de los derechos individuales y colectivos. Desde la filosofía, se han desarrollado diversas teorías que buscan explicar su origen, legitimidad y funciones, mientras que el Derecho establece los mecanismos que regulan su estructura y su relación con los ciudadanos. 
+          .bg-verde-oscuro.p-4(data-aos='fade-up')
+            span.text-white A lo largo de la historia, el concepto de Estado ha evolucionado, adaptándose a diferentes contextos políticos y sociales. En la actualidad, el debate sobre el rol del Estado sigue vigente en cuestiones como la globalización, los derechos humanos y el avance de la tecnología. Tanto la filosofía como el Derecho, continúan explorando nuevas formas de entender y organizar el poder estatal, con el objetivo de construir sociedades más justas y equitativas.
+        .col-4.d-none.d-xl-block
+          img(src='@/assets/curso/unidad/img-49.png', alt='Texto que describa la imagen')
 
       .bg-full-width.border-top-9-azul
         .px-5.pt-5.pb-0
@@ -232,16 +198,16 @@
             .col-12.col-md-6.col-lg-8
               p.d-flex.my-4
                 img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
-                a.text-small.text-primary(target="_blank", href="https://escuelajudicial.ramajudicial.gov.co/Videos/campus/medios/docs/FILOSOFIA.pdf") Castro, E (2019). Filosofía del Derecho. Consejo Superior de la Judicatura, Escuela Judicial "Rodrigo Lara Bonilla"
-              p.d-flex.my-4
-                img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-                a.text-small.text-primary(target="_blank", href="https://escuelajudicial.ramajudicial.gov.co") Escuela Judicial "Rodrigo Lara Bonilla"
+                a.text-small.text-primary(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/75952") Russo Foresto, J. J. (2016). Democratización y competición política: conceptos y casos. Plaza y Valdés (México).
               p.d-flex.my-4
                 img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
-                a.text-small.text-primary(target="_blank", href="https://youtu.be/AoJxpksTnkQ?si=43WrVIhvT5vx47zs") [Vídeo] Monzon, A. (2022). Repaso 1- Teoría del derecho
+                a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=R4c18dwFw2I&t=2s") [Vídeo] Magic Markers. (2021). Qué es el estado y cuál es tu papel
             .col-12.col-md-6.col-lg-3
               figure
                 img(src='@/assets/componentes/material-complementario.svg' alt='Imagen de material complementario')
+
+      p
+
 
 
   </template>

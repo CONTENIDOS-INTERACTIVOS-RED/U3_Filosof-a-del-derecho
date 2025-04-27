@@ -2,7 +2,7 @@
   .curso-main-container.creditos-vista
     BannerInterno(subTitulo="SÍNTESIS")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-      p(data-aos="fade-up").mb-5 La unidad 1: Concepto de filosofía del Derecho, proporciona las bases teóricas fundamentales para comprender el Derecho desde una perspectiva crítica, reflexiva y argumentativa. Esta unidad explora los ejes filosóficos del Derecho —ontología, epistemología y axiología—, así como su relación con la moral, la justicia y la legitimidad del orden jurídico. Este enfoque integral permite que los estudiantes desarrollen una comprensión profunda del Derecho como un fenómeno normativo y social, sustentado en principios filosóficos, lo que fortalece su capacidad para interpretar, aplicar y transformar el Derecho en contextos contemporáneos.
+      p(data-aos="fade-up").mb-5 La Unidad 3: Los principales ejes de la institución jurídica, permite comprender los fundamentos filosóficos que sustentan las principales instituciones jurídicas, abordando conceptos esenciales como la responsabilidad, el Estado, la propiedad, la justicia y la Ley. A través del análisis crítico de teorías clásicas y contemporáneas, se establece un diálogo entre la filosofía y el derecho, permitiendo al estudiante reflexionar sobre la legitimidad de las normas y su función social. Esta unidad promueve una visión integral del derecho como sistema normativo y expresión ética, fortaleciendo habilidades argumentativas para el análisis de problemas jurídicos actuales.
 
       .row.justify-content-center
         .col-lg-12.mb-5

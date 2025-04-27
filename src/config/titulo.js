@@ -1,1 +1,1 @@
-module.exports = 'Concepto de filosofía del Derecho'
+module.exports = 'Los principales ejes de la institución jurídica'

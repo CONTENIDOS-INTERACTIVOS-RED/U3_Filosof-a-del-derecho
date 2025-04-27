@@ -1,7 +1,7 @@
 export default {
   global: {
-    numeroUnidad: '1',
-    tituloUnidad: 'Concepto de filosofía del Derecho',
+    numeroUnidad: '3',
+    tituloUnidad: 'Los principales ejes de la institución jurídica',
   },
   menuPrincipal: {
     menu: [
@@ -15,25 +15,26 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Ejes filosóficos del Derecho',
+        titulo: 'La responsabilidad',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Ontología del Derecho: la naturaleza del Derecho',
+            titulo: 'La responsabilidad en la filosofía',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Epistemología jurídica: el conocimiento del Derecho',
+            titulo: 'La responsabilidad en el Derecho',
             hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Axiología del Derecho: los valores y la justicia',
+            titulo:
+              'La interrelación entre filosofía y Derecho en la responsabilidad',
             hash: 't_1_3',
           },
         ],
@@ -42,31 +43,32 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'El concepto de filosofía del Derecho',
+        titulo: 'El Estado',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'La filosofía del Derecho y las demás ramas jurídicas',
+            titulo: 'El Estado en la filosofía',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Metodología y enfoques en la filosofía del Derecho',
+            titulo: 'El Estado en el Derecho',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'La relación entre filosofía y Derecho',
+            titulo: 'El caso colombiano',
             hash: 't_2_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.4',
-            titulo: 'La estructura normativa del Derecho',
+            titulo:
+              'Interrelación entre filosofía y Derecho, en la concepción del Estado',
             hash: 't_2_4',
           },
         ],
@@ -75,42 +77,89 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'La filosofía del Derecho como saber jurídico',
+        titulo: ' La propiedad',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo:
-              'La filosofía del Derecho y su relación con el ordenamiento jurídico',
+            titulo: 'La propiedad en la filosofía',
             hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo:
-              'La ciencia jurídica y la filosofía del Derecho como fundamento de la Ciencia Jurídica',
+            titulo: 'La propiedad en el derecho',
             hash: 't_3_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.3',
-            titulo: 'Objeto de estudio de la filosofía como saber jurídico',
+            titulo:
+              'Interrelación entre filosofía y Derecho en la concepción de la propiedad',
             hash: 't_3_3',
           },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'La justicia',
+        desarrolloContenidos: true,
+        subMenu: [
           {
             icono: 'far fa-file-alt',
-            numero: '3.4',
-            titulo:
-              'La interpretación y aplicación del Derecho desde la filosofía',
-            hash: 't_3_4',
+            numero: '4.1',
+            titulo: 'La justicia en la filosofía',
+            hash: 't_4_1',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '3.5',
+            numero: '4.2',
+            titulo: 'La justicia en el derecho',
+            hash: 't_4_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.3',
             titulo:
-              'Retos contemporáneos en la interpretación y aplicación del Derecho',
-            hash: 't_3_5',
+              'Interrelación entre filosofía y Derecho, en la concepción de la justicia',
+            hash: 't_4_3',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema5',
+        icono: 'far fa-file-alt',
+        numero: '5',
+        titulo: 'La ley',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '5.1',
+            titulo: 'La Ley en la filosofía',
+            hash: 't_5_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '5.2',
+            titulo: 'La Ley en el Derecho',
+            hash: 't_5_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '5.3',
+            titulo: 'La Ley en Colombia',
+            hash: 't_5_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '5.4',
+            titulo:
+              'Interrelación entre filosofía y Derecho, en la concepción de la Ley',
+            hash: 't_5_4',
           },
         ],
       },
@@ -152,86 +201,91 @@ export default {
   referencias: [
     {
       referencia:
-        'Gómez Gallardo, P. (2017). Filosofía del derecho (2 ed.). IURE Editores.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/40200',
+        'Aristóteles. (2004). Ética a Nicómaco: (ed.). El Cid Editor.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/93982',
     },
     {
       referencia:
-        'Hernández, J (2020) Nociones de hermenéutica e interpretación jurídica en el contexto mexicano. UNAM',
+        'Castro-Ayala, J. G., & Calonje-Londoño, N. X. (2015). Derecho de obligaciones : aproximación a la praxis y a la constitucionalización. Bogotá: Universidad',
       link:
-        'https://biblio.juridicas.unam.mx/bjv/detalle-libro/5649-nociones-de-hermeneutica-e-interpretacion-juridica-en-el-contexto-mexicano',
+        'https://repository.ucatolica.edu.co/entities/publication/b30f5e04-016e-46a4-9d89-ad903e18c461',
     },
     {
-      referencia: 'Sandel, M (2018). Justicia ¿hacemos lo que debemos?. Debate',
+      referencia:
+        'Locke, J (2006). Segundo Tratado sobre el Gobierno Civil. Tecnos',
+      link:
+        'https://sociologia1unpsjb.wordpress.com/wp-content/uploads/2008/03/locke-segundo-tratado-sobre-el-gobierno-civil.pdf',
+    },
+    {
+      referencia: 'Platón. (2004). La República: (ed.). El Cid Editor.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/35993',
+    },
+    {
+      referencia:
+        'Rousseau, J. (2017). El contrato social: (ed.). Ediciones Akal.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/4982',
+    },
+    {
+      referencia:
+        'Hobbes, T. (2017). Leviatán: o la materia, forma y poder de una república eclesiástica y civil: (ed.). FCE - Fondo de Cultura Económica.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/110190',
+    },
+    {
+      referencia:
+        'Sandel, M (2018). Justicia ¿hacemos lo que debemos?. Debate.',
       link: 'https://www.academia.edu/34763569/JUSTICIA_Michael_Sandel',
-    },
-    {
-      referencia:
-        'Castro, E (2019). Filosofía del Derecho. Consejo Superior de la Judicatura, Escuela Judicial "Rodrigo Lara Bonilla"',
-      link:
-        'https://escuelajudicial.ramajudicial.gov.co/Videos/campus/medios/docs/FILOSOFIA.pdf',
-    },
-    {
-      referencia: 'Rüthers, B (2018). Teoría General del Derecho. Temis',
-      link:
-        'https://api.pageplace.de/preview/DT0400.9789583514173_A42960221/preview-9789583514173_A42960221.pdf',
     },
   ],
   glosario: [
     {
-      termino: 'Ciencia jurídica',
+      termino: 'Contrato social',
       significado:
-        'Conjunto de conocimientos sistemáticos sobre el Derecho, que busca describir, interpretar y sistematizar las normas jurídicas.',
+        'Teoría filosófica que sostiene que la sociedad y el Estado se originan en un acuerdo entre individuos para garantizar el orden y la convivencia, estableciendo derechos y deberes mutuos.',
     },
     {
-      termino: 'Derecho positivo',
+      termino: 'Estado',
       significado:
-        'Conjunto de normas jurídicas establecidas y en vigor en un determinado tiempo y lugar, creadas por una autoridad legítima.',
+        'Organización política y jurídica que ejerce soberanía sobre un territorio y su población, estableciendo normas para el funcionamiento de la sociedad.',
     },
     {
-      termino: 'Epistemología jurídica',
+      termino: 'Estado social de derecho',
       significado:
-        'Disciplina que estudia el conocimiento del Derecho, analizando su origen, validez, método y límites.',
+        'Modelo de Estado que, además de garantizar derechos fundamentales y libertades individuales, promueve la justicia social mediante la intervención en la economía y la protección de sectores vulnerables.',
     },
     {
-      termino: 'Filosofía del derecho',
+      termino: 'Institución jurídica',
       significado:
-        'Rama de la filosofía que reflexiona sobre la esencia, fundamentos y valores del Derecho, así como su relación con la justicia y la moral.',
-    },
-    {
-      termino: 'Imperativo categórico',
-      significado:
-        'Principio formulado por Kant que ordena actuar conforme a normas morales universales, independientemente de cualquier condición o consecuencia.',
-    },
-    {
-      termino: 'Imperativo hipotético',
-      significado:
-        'Principio kantiano que ordena una acción como medio para alcanzar un fin determinado, dependiendo de condiciones específicas.',
-    },
-    {
-      termino: 'Iusnaturalismo',
-      significado:
-        'Corriente filosófico-jurídica que sostiene la existencia de un Derecho natural, basado en principios universales e inmutables, anteriores y superiores al derecho positivo.',
+        'Conjunto de normas, principios y estructuras legales que regulan una determinada área del derecho, como la responsabilidad, la propiedad o el Estado.',
     },
     {
       termino: 'Justicia',
       significado:
-        'Valor fundamental del Derecho que implica dar a cada quien lo que le corresponde, garantizando la equidad y el respeto a los derechos de las personas.',
+        'Principio ético y jurídico que busca dar a cada quien lo que le corresponde, basado en la equidad, la igualdad y el reconocimiento de derechos.',
     },
     {
-      termino: 'Moral',
+      termino: 'Ley',
       significado:
-        'Conjunto de principios y valores que orientan la conducta humana en función del bien y el mal, influyendo en la formulación del Derecho.',
+        'Norma jurídica dictada por una autoridad legítima que tiene carácter obligatorio y busca regular la conducta social para garantizar el orden y la justicia.',
     },
     {
-      termino: 'Ontología del derecho',
+      termino: 'Principio de diferencia',
       significado:
-        'Rama de la Filosofía del Derecho que estudia la naturaleza, estructura y existencia del Derecho como fenómeno normativo y social.',
+        'Concepto de John Rawls que establece que las desigualdades económicas y sociales solo son justas si benefician a los más desfavorecidos y garantizan igualdad de oportunidades.',
     },
     {
-      termino: 'Positivismo jurídico',
+      termino: 'Principio de libertad',
       significado:
-        'Corriente filosófico-jurídica que sostiene que el Derecho es un sistema de normas creado por la autoridad competente, sin necesidad de fundamentación en principios morales o naturales.',
+        'Postulado fundamental en filosofía política que reconoce el derecho de los individuos a actuar según su voluntad, siempre que no vulneren los derechos de los demás.',
+    },
+    {
+      termino: 'Propiedad',
+      significado:
+        'Derecho legal y moral que permite a una persona poseer, usar, disponer y excluir a otros de un bien, ya sea material o inmaterial.',
+    },
+    {
+      termino: 'Responsabilidad',
+      significado:
+        'Obligación de asumir las consecuencias de los propios actos, tanto en el ámbito jurídico como en el moral y social.',
     },
   ],
 }
