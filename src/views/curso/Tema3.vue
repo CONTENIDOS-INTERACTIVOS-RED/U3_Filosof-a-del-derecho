@@ -24,9 +24,9 @@
               .my-auto
                 p.mb-4.text-white A continuación, se aborda cómo el estado emocional de los estudiantes influye directamente en su capacidad para concentrarse y aprender.
                 TarjetaAudio.color-secundario.bg-white.mb-3(
-                  texto='Texto descriptivo del audio'
+                  texto='Podcast La propiedad en la filosofía'
                   tiempo
-                  :audio="require('../../assets/componentes/audios/audio-ej.mp3')"
+                  :audio="require('../../assets/componentes/audios/Podcast La propiedad_mezcla.mp3')"
                   @audio-hover='mostrarIndicadorTarjetaAudio = false'
                 )
             .col-6.d-none.d-xl-block(data-aos="zoom-in")
@@ -113,7 +113,7 @@
           .col-12.col-xl-7.d-flex.ps-4.ps-xl-5.align-items-center.flex-column
             h2.mb-4.pb-2.me-auto Interrelación entre filosofía y Derecho en la concepción de la propiedad 
             p.mb-5(data-aos="fade-up") En el PDF Interrelación entre filosofía y Derecho en la concepción de la propiedad , se examina cómo las distintas corrientes filosóficas han influido en la construcción de marcos jurídicos que regulan la propiedad, desde su defensa como derecho individual hasta su función social. Esta revisión permite comprender los desafíos actuales en torno al acceso justo a los bienes y la búsqueda de equilibrio entre libertad individual y justicia colectiva.
-            a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+            a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/Anexos_Interrelación entre filosofía y Derecho en la concepción de la propiedad.pdf')" target="_blank")
               img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
               p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Interrelación entre filosofía y Derecho en la concepción de la propiedad 
 

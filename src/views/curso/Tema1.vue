@@ -90,7 +90,7 @@
         .col-12.col-xl-7.d-flex.pe-4.pe-xl-5.align-items-center.flex-column
           h2.mb-4.pb-2.me-auto Algunas aproximaciones filosóficas a la responsabilidad
           p.mb-5(data-aos="fade-up") La responsabilidad, entendida desde la filosofía, ha sido abordada por distintas corrientes y pensadores a lo largo de la historia, revelando su complejidad ética y moral. En el PDF Algunas aproximaciones filosóficas a la responsabilidad , se analizan las visiones de Aristóteles, Kant y Sartre, quienes exploran esta noción desde la virtud, el deber moral y la libertad existencial, respectivamente. Estas perspectivas permiten reflexionar sobre el papel de la voluntad, la autonomía y el compromiso ético en la construcción de una vida responsable.
-          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/Anexos_Algunas aproximaciones filosóficas a la responsabilidad.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Algunas aproximaciones filosóficas a la responsabilidad
         .d-none.d-xl-block.col-xl-5.mx-auto.mt-4.mt-xl-0(data-aos="zoom-in")

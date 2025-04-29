@@ -149,7 +149,7 @@
           .col-12.col-xl-7.d-flex.ps-4.ps-xl-5.align-items-center.flex-column
             h2.mb-4.pb-2.me-auto Interrelación entre filosofía y Derecho, en la concepción de la Ley 
             p.mb-5(data-aos="fade-up") En el PDF Interrelación entre filosofía y Derecho, en la concepción de la Ley , se examina cómo las ideas filosóficas han influido en la creación, legitimidad y límites de las leyes, resaltando su papel en la protección de derechos y el mantenimiento de la justicia. Este análisis permite comprender la importancia de armonizar principios éticos con marcos legales para construir sociedades más equitativas y conscientes de los desafíos actuales.
-            a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+            a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/Anexos_Interrelación entre filosofía y Derecho en la concepción de la Ley.pdf')" target="_blank")
               img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
               p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Interrelación entre filosofía y Derecho, en la concepción de la Ley 
 
