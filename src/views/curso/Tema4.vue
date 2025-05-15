@@ -21,7 +21,7 @@
         div.px-5.pb-md-3.py-4.d-flex
           .col-12.col-xl-7.d-flex.pe-4.pe-xl-5.align-items-center.flex-column
             h2.mb-4.pb-2.me-auto La justicia en la filosofía
-            p.mb-5(data-aos="fade-up") En el PDF La justicia en la filosofía , se presentan distintas concepciones desarrolladas desde la Antigüedad hasta la actualidad, abordando ideas de pensadores como Platón, Aristóteles, Kant, Rawls y Nozick. A través de sus enfoques, se analiza cómo la justicia se relaciona con la equidad, el deber moral, la libertad y el bien común, ofreciendo herramientas para reflexionar críticamente sobre su aplicación en la vida contemporánea.
+            p.mb-5(data-aos="fade-up") En el PDF La justicia en la filosofía, se presentan distintas concepciones desarrolladas desde la Antigüedad hasta la actualidad, abordando ideas de pensadores como Platón, Aristóteles, Kant, Rawls y Nozick. A través de sus enfoques, se analiza cómo la justicia se relaciona con la equidad, el deber moral, la libertad y el bien común, ofreciendo herramientas para reflexionar críticamente sobre su aplicación en la vida contemporánea.
             a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/Anexos_La justicia en la filosofía.pdf')" target="_blank")
               img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
               p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> La justicia en la filosofía
@@ -74,8 +74,8 @@
             img.h-100(src='@/assets/curso/unidad/img-66.png', alt='Texto que describa la imagen')
           .col-12.col-xl-7.d-flex.ps-4.ps-xl-5.align-items-center.flex-column
             h2.mb-4.pb-2.me-auto Interrelación entre filosofía y Derecho, en la concepción de la justicia
-            p.mb-5(data-aos="fade-up") En el PDF Interrelación entre filosofía y Derecho , en la concepción de la justicia, se analiza cómo los principios éticos propuestos por la filosofía han influido en la formulación de normas jurídicas orientadas a la equidad, la dignidad humana y los derechos fundamentales. Este enfoque permite comprender los desafíos actuales en torno a la justicia y la necesidad de armonizar teoría y práctica en contextos sociales cambiantes.
-            a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/Anexos_Interrelación entre filosofía y Derecho, en la concepción de la justicia.pdf')" target="_blank")
+            p.mb-5(data-aos="fade-up") En el PDF Interrelación entre filosofía y Derecho, en la concepción de la justicia, se analiza cómo los principios éticos propuestos por la filosofía han influido en la formulación de normas jurídicas orientadas a la equidad, la dignidad humana y los derechos fundamentales. Este enfoque permite comprender los desafíos actuales en torno a la justicia y la necesidad de armonizar teoría y práctica en contextos sociales cambiantes.
+            a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/Anexos_Interrelación_entre_concepción_de_la_justicia.pdf')" target="_blank")
               img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
               p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Interrelación entre filosofía y Derecho, en la concepción de la justicia
 

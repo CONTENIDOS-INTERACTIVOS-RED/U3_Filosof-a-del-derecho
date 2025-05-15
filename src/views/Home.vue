@@ -22,9 +22,9 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 Desde sus orígenes, el Derecho ha estado vinculado a profundas reflexiones sobre la justicia, la moral y la organización de la vida en sociedad. En esta primera unidad, se abordará la filosofía del Derecho como disciplina esencial para comprender no solo el contenido normativo, sino también los fundamentos éticos y teóricos que le dan sentido. A través del estudio de sus ejes filosóficos, se analizarán los valores que sustentan el orden jurídico y su aplicación en contextos cambiantes y complejos.
+              p.descripcion.mb-4 Desde sus orígenes, el Derecho ha estado profundamente ligado a la reflexión filosófica sobre la justicia, el Estado, la ley y la responsabilidad. En esta unidad, se estudia la institución jurídica a través de cinco pilares fundamentales: la responsabilidad, el Estado, la propiedad, la justicia y la Ley, analizados desde su dimensión filosófica y jurídica. Con este enfoque integral, se busca que el estudiante desarrolle una comprensión crítica del derecho como sistema normativo, pero también como expresión de valores éticos que orientan la convivencia.
 
-              p #[b ¡Prepárese para desarrollar una visión crítica y argumentativa del Derecho desde sus fundamentos filosóficos!]
+              p #[b ¡Prepárese para analizar las bases filosóficas que sostienen las normas jurídicas y su impacto en la sociedad contemporánea!]
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")

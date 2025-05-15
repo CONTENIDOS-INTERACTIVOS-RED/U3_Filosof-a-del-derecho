@@ -16,9 +16,11 @@
           span.me-3 3.1
           h2 La propiedad en la filosofía
 
+      p.mb-4 Para estudiar esta temática, lo invitamos a escuchar el siguiente podcast.
       .row.bg-verde-oscuro.bg-full-width.p-4.py-xl-0.mb-4
         div.px-5.pb-md-3
-          
+        
+
           .row
             .col-12.col-xl-6.d-flex.pt-xl-4
               .my-auto
@@ -67,25 +69,25 @@
           p.mb-4 El derecho de propiedad se clasifica en diferentes tipos, según su objeto y su titularidad:
 
           .row.mb-4
-            .col-10.col-xl-6.d-flex.mb-4
+            .col-10.col-xl-6.d-flex.mb-4.mx-auto
               .d-flex.align-items-start.h-100.bg-marron.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
                 img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-55.svg', alt='Texto descriptivo de la imagen')
                 .my-auto
                   p.pe-xl-3.mb-2.text-bold Propiedad privada
                   span Corresponde a individuos o empresas y está protegida por el ordenamiento jurídico.
-            .col-10.col-xl-6.d-flex.mb-4
+            .col-10.col-xl-6.d-flex.mb-4.mx-auto
               .d-flex.align-items-start.h-100.bg-marron.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
                 img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-56.svg', alt='Texto descriptivo de la imagen')
                 .my-auto
                   p.pe-xl-3.mb-2.text-bold Propiedad pública
                   span Pertenece al Estado y se destina al uso colectivo, como carreteras, parques y edificios gubernamentales.
-            .col-10.col-xl-6.d-flex.mb-4
+            .col-10.col-xl-6.d-flex.mb-4.mx-auto
               .d-flex.align-items-start.h-100.bg-marron.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
                 img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-57.svg', alt='Texto descriptivo de la imagen')
                 .my-auto
                   p.pe-xl-3.mb-2.text-bold Propiedad comunal
                   span Es gestionada por comunidades o grupos específicos, como tierras indígenas o bienes comunales en zonas rurales.
-            .col-10.col-xl-6.d-flex.mb-4
+            .col-10.col-xl-6.d-flex.mb-4.mx-auto
               .d-flex.align-items-start.h-100.bg-marron.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
                 img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-58.svg', alt='Texto descriptivo de la imagen')
                 .my-auto
@@ -112,8 +114,8 @@
             img.h-100(src='@/assets/curso/unidad/img-60.png', alt='Texto que describa la imagen')
           .col-12.col-xl-7.d-flex.ps-4.ps-xl-5.align-items-center.flex-column
             h2.mb-4.pb-2.me-auto Interrelación entre filosofía y Derecho en la concepción de la propiedad 
-            p.mb-5(data-aos="fade-up") En el PDF Interrelación entre filosofía y Derecho en la concepción de la propiedad , se examina cómo las distintas corrientes filosóficas han influido en la construcción de marcos jurídicos que regulan la propiedad, desde su defensa como derecho individual hasta su función social. Esta revisión permite comprender los desafíos actuales en torno al acceso justo a los bienes y la búsqueda de equilibrio entre libertad individual y justicia colectiva.
-            a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/Anexos_Interrelación entre filosofía y Derecho en la concepción de la propiedad.pdf')" target="_blank")
+            p.mb-5(data-aos="fade-up") En el PDF Interrelación entre filosofía y Derecho en la concepción de la propiedad, se examina cómo las distintas corrientes filosóficas han influido en la construcción de marcos jurídicos que regulan la propiedad, desde su defensa como derecho individual hasta su función social. Esta revisión permite comprender los desafíos actuales en torno al acceso justo a los bienes y la búsqueda de equilibrio entre libertad individual y justicia colectiva.
+            a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/Anexos_Interrelación_entre_filosofía_y_Derecho_propiedad.pdf')" target="_blank")
               img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
               p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Interrelación entre filosofía y Derecho en la concepción de la propiedad 
 
